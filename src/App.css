@@ -123,8 +123,6 @@ span {
   color: white;
 }
 
-
-
 .comments_div {
   background-color: var(--secondaryColor);
   padding: 5px;
@@ -150,24 +148,47 @@ span {
   color: white;
 }
 
-.user_data_div{
+.user_data_div {
   color: white;
 }
-.email{
+.email {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: bold;
   margin: 0;
 }
 
-.username_, .joined{
-color: rgb(184, 184, 184);
+.username_,
+.joined {
+  color: rgb(184, 184, 184);
 }
 
-.pass_btn{
+.pass_btn {
   background-color: rgb(21, 148, 117);
   color: white;
   border: none;
   border-radius: 5px;
   font-size: 12px;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    display: none;
+  }
+  body::before {
+    content: "seven2welve is not supported on this device, use mobile phone please.";
+    color: red;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .wrapper {
+    display: none;
+  }
+  body::before {
+    content: "seven2welve is not supported on this device, use mobile phone please.";
+    color: red;
+    font-weight: bold;
+  }
 }
