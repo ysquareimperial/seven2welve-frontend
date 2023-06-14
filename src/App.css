@@ -176,7 +176,7 @@ span {
     display: none;
   }
   body::before {
-    content: "seven2welve is not supported on this device, use mobile phone please.";
+    content: "Use mobile phone please, seven2welve is not supported on this device.";
     color: red;
     font-weight: bold;
   }
@@ -187,7 +187,7 @@ span {
     display: none;
   }
   body::before {
-    content: "seven2welve is not supported on this device, use mobile phone please.";
+    content: "Use mobile phone please, seven2welve is not supported on this device.";
     color: red;
     font-weight: bold;
   }
